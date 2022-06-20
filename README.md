@@ -1,2 +1,2 @@
 # first-pyscript-app
- getting family with pyscript 
+ getting familiar with the basics of pyscript 
