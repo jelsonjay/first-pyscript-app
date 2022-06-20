@@ -7,10 +7,31 @@
     <title>PyScript App</title>
     <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
 <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+<link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <h1>PyScript run with </h1>
+    <h1>Python PyScript run with HTML in browser</h1>
 
-    <py-script> print('Now you can!') </py-script>|
+    <py-script class="text">
+    employees = ["Betty", "Sam","David","Rayn"]
+    list_jobs = ["Tester","Web Design", "Web Developer", "Mobile All"]
+        
+    for staff in employees:
+        print(staff)
+
+    for job in list_jobs:
+        print(job)
+
+        
+    if list_jobs[0] == "Tester":
+        print(f"My name is {staff}")
+        
+      
+
+
+
+    </py-script>
+
+
 </body>
 </html>
